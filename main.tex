@@ -18,6 +18,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{graphicx}
 % only for pdflatex
 % \input{glyphtounicode}
 
@@ -136,15 +137,30 @@
 \begin{document}
 
 %----------HEADING----------
-\begin{center}
-    \textbf{\Huge Pau Bover Femenias} \\ \vspace{10pt}
-    \small 
-    \hspace{1pt}\faPhone* \texttt{+XX XXX XXX XXX} \hspace{1pt} $|$
-    \hspace{1pt} \faEnvelope \hspace{2pt} \texttt{xxxxxxxxxxxx@gmail.com} \hspace{1pt} $|$ 
-    \hspace{1pt} \faGithub \hspace{2pt} \texttt{BoverPau333} \hspace{1pt} $|$
-    \hspace{1pt} \faMapMarker* \hspace{2pt}\texttt{Palma de Mallorca - Spain}
-    \\ \vspace{-3pt}
-\end{center}
+
+\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+
+\begin{minipage}[c]{0.72\textwidth}
+{\Huge \textbf{Pau Bover Femenias}} \\[6pt]
+
+\small
+\faPhone* \hspace{4pt} +xx xxx xxx xxx \hspace{8pt} $|$ \hspace{8pt}  
+\faEnvelope \hspace{4pt} xxxxxxxxxx@gmail.com \\[2pt]
+
+\faGithub \hspace{4pt} BoverPau333 \hspace{8pt} $|$
+\faLinkedin \hspace{8pt} BoverPau333 \hspace{8pt} $|$  \hspace{8pt}
+\faMapMarker* \hspace{4pt} Palma de Mallorca, Spain
+
+\end{minipage}
+&
+\begin{minipage}[c]{0.22\textwidth}
+\raggedleft
+\includegraphics[width=3cm]{personalPhoto.jpeg}
+\end{minipage}
+
+\end{tabular*}
+
+\vspace{2pt}
 
 %-----------EXPERIENCE-----------
 \section{EXPERIENCE}
@@ -152,7 +168,7 @@
 
     \resumeSubheading
     {BehindThePixel}{Jun. 2024 -- Present}
-    {CEO \& Lead Developer}{Palma, Spain / Barcelona, Spain}
+    {Technical Project Lead \& Full-Stack Developer}{Palma, Spain / Barcelona, Spain}
             \resumeItemListStart
             \resumeItem{Led a technology-focused SME delivering software solutions across media, AI and digital platforms}
             \resumeItem{Managed client relationships and project requirements while coordinating the full software development lifecycle}
@@ -255,7 +271,8 @@
      \textbf{Programming} {: Python, C++, C , Java, PHP, SQL (MySQL)} \\
      \textbf{AI / Machine Learning} {: PyTorch, TorchVision, Scikit-learn, NumPy} \\
      \textbf{Tools}     {: Docker, Trello, Google Analytics, GitHub, Overleaf, OpenCV, Kaggle} \vspace{2pt} \\
-     \textbf{Areas of Interest}     {: Image Processing, Machine Learning , Data Analysis, CNN-based Models}
+     \textbf{Areas of Interest}     {: Image Processing, Machine Learning , Data Analysis, CNN-based Models} \\
+     \textbf{Languages} {: English (Level: Advanced | Certified: B1.2 ), Spanish (Level: Native), Catalan (Level: Native)}
     }}
  \end{itemize}
 
