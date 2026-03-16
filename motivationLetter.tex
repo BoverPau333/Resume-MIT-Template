@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper]{letter}
+
+%-----------------------------------
+% Packages
+%-----------------------------------
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{lmodern}
+
+%-----------------------------------
+% Styling
+%-----------------------------------
+\setstretch{1.1}
+\pagestyle{empty}
+
+\definecolor{accent}{RGB}{40,40,40}
+
+%-----------------------------------
+% PARAMETRIZABLE VARIABLES
+%-----------------------------------
+
+\newcommand{\ApplicantName}{Pau Bover Femenias}
+\newcommand{\ApplicantCity}{Palma de Mallorca, Spain}
+\newcommand{\ApplicantEmail}{pauboverfemenias@gmail.com}
+\newcommand{\ApplicantPhone}{+34 608 69 12 37}
+
+\newcommand{\University}{[University Name]}
+\newcommand{\Program}{[Master’s Program Name]}
+
+\newcommand{\Degree}{Bachelor’s Degree in Computer Science}
+\newcommand{\UniversityOrigin}{University of Granada}
+\newcommand{\Specialization}{Intelligent Systems}
+
+\newcommand{\ResearchAreas}{Artificial Intelligence and Computer Vision}
+
+\newcommand{\TopPerformance}{top 5–10\% of my class}
+
+%-----------------------------------
+% CUSTOM COMMANDS
+%-----------------------------------
+
+\newcommand{\ApplicantHeader}{
+{\Large\textbf{\ApplicantName}}\\
+\ApplicantCity \\
+\href{mailto:\ApplicantEmail}{\ApplicantEmail} \quad | \quad \ApplicantPhone
+}
+
+\newcommand{\UniversityHeader}{
+Admissions Committee\\
+\University\\
+\Program
+}
+
+%-----------------------------------
+% DOCUMENT
+%-----------------------------------
+
+\begin{document}
+
+% Header
+\ApplicantHeader
+
+\vspace{20pt}
+
+\UniversityHeader
+
+\vspace{20pt}
+
+\textbf{Subject: Application to the \Program}
+
+\vspace{10pt}
+
+Dear Members of the Admissions Committee,
+
+I am writing to express my strong interest in the \textbf{\Program} at \textbf{\University}. I recently completed my \Degree{} at the \textbf{\UniversityOrigin}, specializing in \Specialization. Throughout my academic studies and professional experience, I have developed a strong interest in \textbf{\ResearchAreas}, particularly in designing intelligent systems capable of learning and adapting to complex environments.
+
+During my undergraduate studies, I consistently ranked among the \textbf{\TopPerformance}. I achieved top grades in subjects directly related to artificial intelligence, including \textbf{Machine Learning} and \textbf{Computer Vision}. These courses provided me with a strong theoretical foundation in machine learning, optimization methods and visual data processing.
+
+Alongside my academic training, I gained practical experience working on technology projects and developing AI-driven systems. Through my work in software development and system design, I applied machine learning techniques in real-world environments and strengthened my skills in \textbf{Python, PyTorch and scalable software architectures}.
+
+My \textbf{Bachelor’s thesis} focuses on adapting neural networks after class modifications while minimizing retraining costs. This research explores techniques related to incremental learning, transfer learning and efficient model adaptation. In addition, I conducted research evaluating the performance of the \textbf{Red Panda Optimization Algorithm} compared with established metaheuristics.
+
+I am particularly attracted to \textbf{\University} due to its strong focus on research in \textbf{computer vision, deep learning and intelligent systems}. I believe that this program provides the ideal environment to deepen my knowledge and contribute to advanced research in these areas.
+
+My long-term goal is to contribute to the development of intelligent visual systems capable of understanding complex real-world environments. I am particularly interested in research topics related to \textbf{visual perception, adaptive machine learning systems and efficient neural network training}.
+
+Thank you for considering my application. I would be honored to join the \textbf{\Program} and contribute to the academic community at \textbf{\University}.
+
+\vspace{15pt}
+
+Sincerely,
+
+\vspace{15pt}
+
+\ApplicantName
+
+\end{document}
